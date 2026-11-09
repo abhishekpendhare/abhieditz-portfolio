@@ -1,0 +1,672 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ABHIEDITZ — Premium Video Editing</title>
+    <meta name="description" content="ABHIEDITZ — We transform raw footage into cinematic, scroll-stopping content. Premium video editing services in Kopargaon, Maharashtra.">
+    <link rel="icon" href="assets/images/logo.jpeg" type="image/jpeg">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <!-- AOS (Animate on Scroll) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+</head>
+<body>
+
+    <!-- ========== PRELOADER ========== -->
+    <div id="preloader">
+        <div class="loader-inner">
+            <img src="assets/images/logo.jpeg" alt="ABHIEDITZ Logo" class="loader-logo">
+            <div class="loader-bar"><div class="loader-progress"></div></div>
+            <p class="loader-text">Loading Experience...</p>
+        </div>
+    </div>
+
+    <!-- ========== CUSTOM CURSOR ========== -->
+    <div class="cursor-dot"></div>
+    <div class="cursor-ring"></div>
+
+    <!-- ========== NAVBAR ========== -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#hero" class="nav-logo">
+                <img src="assets/images/logo.jpeg" alt="ABHIEDITZ Logo" class="logo-img">
+                <span class="logo-text">ABHIEDITZ</span>
+            </a>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#hero" class="nav-link active">Home</a></li>
+                <li><a href="#work" class="nav-link">Work</a></li>
+                <li><a href="#services" class="nav-link">Services</a></li>
+                <li><a href="#pricing" class="nav-link">Pricing</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <a href="#contact" class="nav-cta">
+                <span>Let's Talk</span>
+                <i class="fas fa-arrow-right"></i>
+            </a>
+            <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- ========== MOBILE MENU ========== -->
+    <div class="mobile-menu" id="mobileMenu">
+        <ul class="mobile-nav-links">
+            <li><a href="#hero" class="mobile-link">Home</a></li>
+            <li><a href="#work" class="mobile-link">Work</a></li>
+            <li><a href="#services" class="mobile-link">Services</a></li>
+            <li><a href="#pricing" class="mobile-link">Pricing</a></li>
+            <li><a href="#about" class="mobile-link">About</a></li>
+            <li><a href="#contact" class="mobile-link">Contact</a></li>
+        </ul>
+        <a href="#contact" class="mobile-cta">Let's Talk <i class="fas fa-arrow-right"></i></a>
+    </div>
+
+    <!-- ========== HERO SECTION ========== -->
+    <section class="hero" id="hero">
+        <div class="hero-bg-video">
+            <video autoplay muted loop playsinline>
+                <source src="assets/videos/1018.mp4" type="video/mp4">
+            </video>
+            <div class="hero-overlay"></div>
+        </div>
+        <div class="hero-content" data-aos="fade-up" data-aos-duration="1200">
+            <div class="hero-badge">
+                <i class="fas fa-film"></i>
+                <span>Premium Video Editing Studio</span>
+            </div>
+            <h1 class="hero-title">
+                We Transform Raw Footage Into
+                <span class="gradient-text">Cinematic Masterpieces</span>
+            </h1>
+            <p class="hero-subtitle">
+                Scroll-stopping reels. Cinematic edits. Content that converts.
+                Trusted by creators & brands across India.
+            </p>
+            <div class="hero-buttons">
+                <a href="#work" class="btn btn-primary">
+                    <span>View Our Work</span>
+                    <i class="fas fa-play"></i>
+                </a>
+                <a href="#pricing" class="btn btn-outline">
+                    <span>See Pricing</span>
+                    <i class="fas fa-arrow-right"></i>
+                </a>
+            </div>
+            <div class="hero-stats">
+                <div class="stat-item">
+                    <span class="stat-number" data-count="200">0</span><span class="stat-plus">+</span>
+                    <span class="stat-label">Projects Delivered</span>
+                </div>
+                <div class="stat-divider"></div>
+                <div class="stat-item">
+                    <span class="stat-number" data-count="50">0</span><span class="stat-plus">+</span>
+                    <span class="stat-label">Happy Clients</span>
+                </div>
+                <div class="stat-divider"></div>
+                <div class="stat-item">
+                    <span class="stat-number" data-count="10">0</span><span class="stat-plus">M+</span>
+                    <span class="stat-label">Views Generated</span>
+                </div>
+            </div>
+        </div>
+        <div class="hero-scroll-indicator">
+            <div class="scroll-mouse">
+                <div class="scroll-wheel"></div>
+            </div>
+            <span>Scroll to Explore</span>
+        </div>
+    </section>
+
+    <!-- ========== MARQUEE / TRUSTED BY ========== -->
+    <section class="marquee-section">
+        <div class="marquee-track">
+            <div class="marquee-content">
+                <span>CINEMATIC REELS</span>
+                <span class="marquee-dot">✦</span>
+                <span>COLOR GRADING</span>
+                <span class="marquee-dot">✦</span>
+                <span>MOTION GRAPHICS</span>
+                <span class="marquee-dot">✦</span>
+                <span>SOUND DESIGN</span>
+                <span class="marquee-dot">✦</span>
+                <span>TRANSITIONS</span>
+                <span class="marquee-dot">✦</span>
+                <span>CAPTIONS & SUBTITLES</span>
+                <span class="marquee-dot">✦</span>
+                <span>THUMBNAIL DESIGN</span>
+                <span class="marquee-dot">✦</span>
+                <span>CINEMATIC REELS</span>
+                <span class="marquee-dot">✦</span>
+                <span>COLOR GRADING</span>
+                <span class="marquee-dot">✦</span>
+                <span>MOTION GRAPHICS</span>
+                <span class="marquee-dot">✦</span>
+                <span>SOUND DESIGN</span>
+                <span class="marquee-dot">✦</span>
+                <span>TRANSITIONS</span>
+                <span class="marquee-dot">✦</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== WORK / PORTFOLIO SECTION ========== -->
+    <section class="work-section" id="work">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-tag"><i class="fas fa-play-circle"></i> Portfolio</span>
+                <h2 class="section-title">Our <span class="gradient-text">Recent Work</span></h2>
+                <p class="section-desc">Every frame tells a story. Here's a glimpse of the magic we create.</p>
+            </div>
+            <div class="work-grid">
+                <div class="work-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="work-video-wrapper">
+                        <video src="assets/videos/1018.mp4" muted loop playsinline preload="metadata"></video>
+                        <div class="work-play-overlay">
+                            <div class="play-btn-circle">
+                                <i class="fas fa-play"></i>
+                            </div>
+                        </div>
+                        <div class="work-badge">Cinematic</div>
+                    </div>
+                    <div class="work-info">
+                        <h3>Cinematic Reel Edit</h3>
+                        <p>Professional color grading & transitions</p>
+                    </div>
+                </div>
+                <div class="work-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="work-video-wrapper">
+                        <video src="assets/videos/0921.mp4" muted loop playsinline preload="metadata"></video>
+                        <div class="work-play-overlay">
+                            <div class="play-btn-circle">
+                                <i class="fas fa-play"></i>
+                            </div>
+                        </div>
+                        <div class="work-badge">Creative</div>
+                    </div>
+                    <div class="work-info">
+                        <h3>Creative Reel Edit</h3>
+                        <p>Dynamic cuts & motion graphics</p>
+                    </div>
+                </div>
+                <div class="work-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="work-video-wrapper">
+                        <video src="assets/videos/1009.mp4" muted loop playsinline preload="metadata"></video>
+                        <div class="work-play-overlay">
+                            <div class="play-btn-circle">
+                                <i class="fas fa-play"></i>
+                            </div>
+                        </div>
+                        <div class="work-badge">Brand</div>
+                    </div>
+                    <div class="work-info">
+                        <h3>Brand Promotional Reel</h3>
+                        <p>Scroll-stopping business content</p>
+                    </div>
+                </div>
+                <div class="work-card" data-aos="fade-up" data-aos-delay="400">
+                    <div class="work-video-wrapper">
+                        <video src="assets/videos/0802.mp4" muted loop playsinline preload="metadata"></video>
+                        <div class="work-play-overlay">
+                            <div class="play-btn-circle">
+                                <i class="fas fa-play"></i>
+                            </div>
+                        </div>
+                        <div class="work-badge">Premium</div>
+                    </div>
+                    <div class="work-info">
+                        <h3>Premium Edit Showcase</h3>
+                        <p>Luxury-grade visual storytelling</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== SERVICES SECTION ========== -->
+    <section class="services-section" id="services">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-tag"><i class="fas fa-wand-magic-sparkles"></i> Services</span>
+                <h2 class="section-title">What We <span class="gradient-text">Offer</span></h2>
+                <p class="section-desc">End-to-end video editing services to elevate your content game.</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="service-icon"><i class="fas fa-film"></i></div>
+                    <h3>Cinematic Reels</h3>
+                    <p>High-quality Instagram & YouTube Shorts with smooth transitions, color grading, and cinematic feel.</p>
+                </div>
+                <div class="service-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="service-icon"><i class="fas fa-palette"></i></div>
+                    <h3>Color Grading</h3>
+                    <p>Professional color correction and grading to give your footage a cinematic, mood-driven aesthetic.</p>
+                </div>
+                <div class="service-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="service-icon"><i class="fas fa-bezier-curve"></i></div>
+                    <h3>Motion Graphics</h3>
+                    <p>Eye-catching animated text, lower thirds, intros, outros, and dynamic visual effects.</p>
+                </div>
+                <div class="service-card" data-aos="fade-up" data-aos-delay="400">
+                    <div class="service-icon"><i class="fas fa-music"></i></div>
+                    <h3>Sound Design</h3>
+                    <p>Audio enhancement, background score selection, sound effects, and voiceover sync for impact.</p>
+                </div>
+                <div class="service-card" data-aos="fade-up" data-aos-delay="500">
+                    <div class="service-icon"><i class="fas fa-closed-captioning"></i></div>
+                    <h3>Captions & Subtitles</h3>
+                    <p>Retention-optimized animated captions and subtitles that keep viewers hooked till the last second.</p>
+                </div>
+                <div class="service-card" data-aos="fade-up" data-aos-delay="600">
+                    <div class="service-icon"><i class="fas fa-image"></i></div>
+                    <h3>Thumbnail Design</h3>
+                    <p>Click-worthy, high-CTR YouTube thumbnails designed to maximize impressions and views.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== PRICING SECTION ========== -->
+    <section class="pricing-section" id="pricing">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-tag"><i class="fas fa-tags"></i> Pricing</span>
+                <h2 class="section-title">Choose Your <span class="gradient-text">Perfect Plan</span></h2>
+                <p class="section-desc">Transparent pricing. No hidden costs. Premium quality guaranteed.</p>
+            </div>
+            <div class="pricing-grid">
+                <!-- Plan 1 -->
+                <div class="pricing-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="pricing-header">
+                        <span class="pricing-tier">Starter</span>
+                        <h3 class="pricing-name">Basic Cinematic Reel</h3>
+                        <div class="pricing-price">
+                            <span class="currency">₹</span>
+                            <span class="amount">1,499</span>
+                        </div>
+                        <p class="pricing-period">per reel</p>
+                    </div>
+                    <ul class="pricing-features">
+                        <li><i class="fas fa-check"></i> Up to 60 sec reel</li>
+                        <li><i class="fas fa-check"></i> Basic color correction</li>
+                        <li><i class="fas fa-check"></i> Smooth transitions</li>
+                        <li><i class="fas fa-check"></i> Background music</li>
+                        <li><i class="fas fa-check"></i> 1 revision included</li>
+                        <li><i class="fas fa-check"></i> 48-hour delivery</li>
+                    </ul>
+                    <a href="https://wa.me/919373284329?text=Hi%20ABHIEDITZ!%20I'm%20interested%20in%20the%20Basic%20Cinematic%20Reel%20package." class="pricing-btn">
+                        Get Started <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+
+                <!-- Plan 2 -->
+                <div class="pricing-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="pricing-popular-badge">Most Popular</div>
+                    <div class="pricing-header">
+                        <span class="pricing-tier">Pro</span>
+                        <h3 class="pricing-name">Starter Reel</h3>
+                        <div class="pricing-price">
+                            <span class="currency">₹</span>
+                            <span class="amount">1,999</span>
+                        </div>
+                        <p class="pricing-period">per reel</p>
+                    </div>
+                    <ul class="pricing-features">
+                        <li><i class="fas fa-check"></i> Up to 90 sec reel</li>
+                        <li><i class="fas fa-check"></i> Advanced color grading</li>
+                        <li><i class="fas fa-check"></i> Cinematic transitions</li>
+                        <li><i class="fas fa-check"></i> Sound design & SFX</li>
+                        <li><i class="fas fa-check"></i> Animated captions</li>
+                        <li><i class="fas fa-check"></i> 2 revisions included</li>
+                        <li><i class="fas fa-check"></i> 36-hour delivery</li>
+                    </ul>
+                    <a href="https://wa.me/919373284329?text=Hi%20ABHIEDITZ!%20I'm%20interested%20in%20the%20Starter%20Reel%20package." class="pricing-btn btn-popular">
+                        Get Started <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+
+                <!-- Plan 3 -->
+                <div class="pricing-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="pricing-header">
+                        <span class="pricing-tier">Business</span>
+                        <h3 class="pricing-name">Business Growth Pack</h3>
+                        <div class="pricing-price">
+                            <span class="currency">₹</span>
+                            <span class="amount">5,999</span>
+                        </div>
+                        <p class="pricing-period">per month</p>
+                    </div>
+                    <ul class="pricing-features">
+                        <li><i class="fas fa-check"></i> 4 premium reels / month</li>
+                        <li><i class="fas fa-check"></i> Cinematic color grading</li>
+                        <li><i class="fas fa-check"></i> Motion graphics & effects</li>
+                        <li><i class="fas fa-check"></i> Custom transitions</li>
+                        <li><i class="fas fa-check"></i> Animated text & captions</li>
+                        <li><i class="fas fa-check"></i> Sound design included</li>
+                        <li><i class="fas fa-check"></i> Content strategy call</li>
+                        <li><i class="fas fa-check"></i> Unlimited revisions</li>
+                        <li><i class="fas fa-check"></i> 24-hour priority delivery</li>
+                    </ul>
+                    <a href="https://wa.me/919373284329?text=Hi%20ABHIEDITZ!%20I'm%20interested%20in%20the%20Business%20Growth%20Pack." class="pricing-btn">
+                        Get Started <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+
+                <!-- Plan 4 -->
+                <div class="pricing-card pricing-premium" data-aos="fade-up" data-aos-delay="400">
+                    <div class="pricing-premium-badge">
+                        <i class="fas fa-crown"></i> Premium
+                    </div>
+                    <div class="pricing-header">
+                        <span class="pricing-tier">Exclusive</span>
+                        <h3 class="pricing-name">ABHIEDITZ Lux Experience</h3>
+                        <div class="pricing-price">
+                            <span class="currency">₹</span>
+                            <span class="amount">12,999</span>
+                        </div>
+                        <p class="pricing-period">per month</p>
+                    </div>
+                    <ul class="pricing-features">
+                        <li><i class="fas fa-check"></i> 8 luxury cinematic reels</li>
+                        <li><i class="fas fa-check"></i> Hollywood-grade color grading</li>
+                        <li><i class="fas fa-check"></i> Advanced motion graphics</li>
+                        <li><i class="fas fa-check"></i> Custom intro & outro</li>
+                        <li><i class="fas fa-check"></i> Professional sound design</li>
+                        <li><i class="fas fa-check"></i> Thumbnail design included</li>
+                        <li><i class="fas fa-check"></i> Brand identity integration</li>
+                        <li><i class="fas fa-check"></i> Dedicated editor assigned</li>
+                        <li><i class="fas fa-check"></i> Weekly strategy sessions</li>
+                        <li><i class="fas fa-check"></i> Same-day rush delivery</li>
+                        <li><i class="fas fa-check"></i> Unlimited revisions</li>
+                    </ul>
+                    <a href="https://wa.me/919373284329?text=Hi%20ABHIEDITZ!%20I'm%20interested%20in%20the%20ABHIEDITZ%20Lux%20Experience." class="pricing-btn btn-premium">
+                        Get Started <i class="fas fa-crown"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== ABOUT SECTION ========== -->
+    <section class="about-section" id="about">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-image" data-aos="fade-right">
+                    <div class="about-image-wrapper">
+                        <img src="assets/images/logo.jpeg" alt="ABHIEDITZ">
+                        <div class="about-experience-badge">
+                            <span class="exp-number">3+</span>
+                            <span class="exp-text">Years of Experience</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-content" data-aos="fade-left">
+                    <span class="section-tag"><i class="fas fa-user"></i> About Me</span>
+                    <h2 class="section-title">Hi, I'm <span class="gradient-text">ABHIEDITZ</span></h2>
+                    <p class="about-text">
+                        I'm a passionate video editor based in <strong>Kopargaon, Maharashtra, India</strong>. 
+                        I specialize in creating cinematic reels, social media content, and brand videos 
+                        that captivate audiences and drive engagement.
+                    </p>
+                    <p class="about-text">
+                        With expertise in color grading, motion graphics, sound design, and storytelling, 
+                        I transform raw footage into compelling visual experiences. Every project is handled 
+                        with a personal touch and a commitment to excellence.
+                    </p>
+                    <div class="about-highlights">
+                        <div class="highlight-item">
+                            <i class="fas fa-bolt"></i>
+                            <span>Fast Delivery</span>
+                        </div>
+                        <div class="highlight-item">
+                            <i class="fas fa-sync-alt"></i>
+                            <span>Unlimited Revisions</span>
+                        </div>
+                        <div class="highlight-item">
+                            <i class="fas fa-headset"></i>
+                            <span>24/7 Support</span>
+                        </div>
+                        <div class="highlight-item">
+                            <i class="fas fa-star"></i>
+                            <span>Premium Quality</span>
+                        </div>
+                    </div>
+                    <div class="about-social">
+                        <a href="https://www.instagram.com/abhi.editz10" target="_blank" class="social-link instagram" title="Follow on Instagram">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="https://wa.me/919373284329" target="_blank" class="social-link whatsapp" title="Chat on WhatsApp">
+                            <i class="fab fa-whatsapp"></i>
+                        </a>
+                        <a href="mailto:abhishekstudio.editz@gmail.com" class="social-link email" title="Send Email">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== TESTIMONIALS ========== -->
+    <section class="testimonials-section">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-tag"><i class="fas fa-quote-left"></i> Testimonials</span>
+                <h2 class="section-title">What Clients <span class="gradient-text">Say</span></h2>
+            </div>
+            <div class="testimonials-grid">
+                <div class="testimonial-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="testimonial-stars">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                    </div>
+                    <p>"ABHIEDITZ transformed my raw clips into a cinematic masterpiece. The quality is unmatched and the turnaround time was incredible!"</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">R</div>
+                        <div>
+                            <strong>Rahul S.</strong>
+                            <span>Content Creator</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="testimonial-stars">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                    </div>
+                    <p>"Best investment for my brand! The reels brought insane engagement. Professional work with a personal touch. Highly recommended!"</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">P</div>
+                        <div>
+                            <strong>Priya M.</strong>
+                            <span>Business Owner</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="testimonial-stars">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                    </div>
+                    <p>"Absolutely mind-blowing edits! The color grading and transitions are top-notch. ABHIEDITZ understands the vision perfectly."</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">A</div>
+                        <div>
+                            <strong>Akash K.</strong>
+                            <span>Influencer</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== CONTACT SECTION ========== -->
+    <section class="contact-section" id="contact">
+        <div class="container">
+            <div class="contact-grid">
+                <div class="contact-info" data-aos="fade-right">
+                    <span class="section-tag"><i class="fas fa-paper-plane"></i> Get in Touch</span>
+                    <h2 class="section-title">Let's Create <span class="gradient-text">Something Amazing</span></h2>
+                    <p class="contact-desc">Ready to transform your content? Drop a message or reach out directly. I'd love to hear about your project!</p>
+                    
+                    <div class="contact-details">
+                        <a href="tel:+919373284329" class="contact-detail-item">
+                            <div class="contact-icon"><i class="fas fa-phone"></i></div>
+                            <div>
+                                <strong>Phone</strong>
+                                <span>+91 93732 84329</span>
+                            </div>
+                        </a>
+                        <a href="mailto:abhishekstudio.editz@gmail.com" class="contact-detail-item">
+                            <div class="contact-icon"><i class="fas fa-envelope"></i></div>
+                            <div>
+                                <strong>Email</strong>
+                                <span>abhishekstudio.editz@gmail.com</span>
+                            </div>
+                        </a>
+                        <a href="https://www.instagram.com/abhi.editz10" target="_blank" class="contact-detail-item">
+                            <div class="contact-icon"><i class="fab fa-instagram"></i></div>
+                            <div>
+                                <strong>Instagram</strong>
+                                <span>@abhi.editz10</span>
+                            </div>
+                        </a>
+                        <div class="contact-detail-item">
+                            <div class="contact-icon"><i class="fas fa-map-marker-alt"></i></div>
+                            <div>
+                                <strong>Location</strong>
+                                <span>Kopargaon, Maharashtra, India</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form-wrapper" data-aos="fade-left">
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-group">
+                            <input type="text" id="name" placeholder="Your Name" required>
+                            <label for="name">Your Name</label>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" placeholder="Your Email" required>
+                            <label for="email">Your Email</label>
+                        </div>
+                        <div class="form-group">
+                            <select id="service" required>
+                                <option value="" disabled selected>Select a Service</option>
+                                <option value="basic">Basic Cinematic Reel — ₹1,499</option>
+                                <option value="starter">Starter Reel — ₹1,999</option>
+                                <option value="business">Business Growth Pack — ₹5,999</option>
+                                <option value="lux">ABHIEDITZ Lux Experience — ₹12,999</option>
+                                <option value="custom">Custom Project</option>
+                            </select>
+                            <label for="service">Select Service</label>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" rows="4" placeholder="Tell us about your project..." required></textarea>
+                            <label for="message">Your Message</label>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-full">
+                            <span>Send Message</span>
+                            <i class="fas fa-paper-plane"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== CTA BANNER ========== -->
+    <section class="cta-section">
+        <div class="container">
+            <div class="cta-card" data-aos="zoom-in">
+                <h2>Ready to Go <span class="gradient-text">Viral?</span></h2>
+                <p>Let's create content that makes people stop scrolling.</p>
+                <div class="cta-buttons">
+                    <a href="https://wa.me/919373284329?text=Hi%20ABHIEDITZ!%20I%20want%20to%20discuss%20a%20project." class="btn btn-primary">
+                        <i class="fab fa-whatsapp"></i>
+                        <span>WhatsApp Now</span>
+                    </a>
+                    <a href="https://www.instagram.com/abhi.editz10" target="_blank" class="btn btn-outline">
+                        <i class="fab fa-instagram"></i>
+                        <span>Follow on Instagram</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== FOOTER ========== -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <div class="footer-logo">
+                        <img src="assets/images/logo.jpeg" alt="ABHIEDITZ Logo">
+                        <span>ABHIEDITZ</span>
+                    </div>
+                    <p>Premium video editing studio. Transforming raw footage into cinematic experiences.</p>
+                    <div class="footer-social">
+                        <a href="https://www.instagram.com/abhi.editz10" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="https://wa.me/919373284329" target="_blank" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                        <a href="mailto:abhishekstudio.editz@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+                        <a href="tel:+919373284329" aria-label="Phone"><i class="fas fa-phone"></i></a>
+                    </div>
+                </div>
+                <div class="footer-links-group">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#hero">Home</a></li>
+                        <li><a href="#work">Work</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#pricing">Pricing</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links-group">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="#services">Cinematic Reels</a></li>
+                        <li><a href="#services">Color Grading</a></li>
+                        <li><a href="#services">Motion Graphics</a></li>
+                        <li><a href="#services">Sound Design</a></li>
+                        <li><a href="#services">Thumbnail Design</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links-group">
+                    <h4>Contact Info</h4>
+                    <ul class="footer-contact">
+                        <li><i class="fas fa-phone"></i> +91 93732 84329</li>
+                        <li><i class="fas fa-envelope"></i> abhishekstudio.editz@gmail.com</li>
+                        <li><i class="fas fa-map-marker-alt"></i> Kopargaon, Maharashtra, India</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 ABHIEDITZ. All Rights Reserved. | Crafted with <i class="fas fa-heart" style="color: #e74c3c;"></i></p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- ========== WHATSAPP FLOAT BTN ========== -->
+    <a href="https://wa.me/919373284329?text=Hi%20ABHIEDITZ!%20I'm%20interested%20in%20your%20editing%20services." 
+       class="whatsapp-float" target="_blank" aria-label="Chat on WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <!-- ========== VIDEO LIGHTBOX ========== -->
+    <div class="video-lightbox" id="videoLightbox">
+        <button class="lightbox-close" aria-label="Close"><i class="fas fa-times"></i></button>
+        <video id="lightboxVideo" controls></video>
+    </div>
+
+    <!-- Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
